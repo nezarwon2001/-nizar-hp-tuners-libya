@@ -1,7 +1,3 @@
-index.html
-style.css
-script.js
-images/
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -12,83 +8,108 @@ images/
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{
-background:#0d0d0d;
-color:#fff;
 font-family:Arial,sans-serif;
-line-height:1.7;
+background:#111;
+color:#fff;
 }
 header{
-background:linear-gradient(90deg,#8b0000,#d40000);
-padding:25px;
+background:#b30000;
+padding:20px;
 text-align:center;
 }
 header h1{
-font-size:36px;
+font-size:38px;
 }
-header p{
-font-size:18px;
-margin-top:10px;
+nav{
+background:#000;
+padding:15px;
+text-align:center;
+}
+nav a{
+color:#fff;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
 }
 .hero{
-padding:60px 20px;
+padding:80px 20px;
 text-align:center;
+background:linear-gradient(#111,#222);
 }
 .hero h2{
 font-size:40px;
 color:#ff3333;
-margin-bottom:20px;
 }
 .hero p{
+margin-top:15px;
 font-size:20px;
-margin-bottom:30px;
 }
-.btn{
+.button{
 display:inline-block;
-background:#d40000;
-color:#fff;
+margin-top:30px;
 padding:15px 35px;
+background:#d60000;
+color:#fff;
 text-decoration:none;
-border-radius:10px;
+border-radius:8px;
 font-size:18px;
 }
 .section{
-padding:50px 20px;
 max-width:1100px;
 margin:auto;
+padding:60px 20px;
 }
 .cards{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
 margin-top:30px;
 }
 .card{
-background:#1b1b1b;
+background:#1f1f1f;
 padding:25px;
 border-radius:12px;
-border:1px solid #444;
 }
 footer{
-background:#111;
+background:#000;
+padding:30px;
 text-align:center;
-padding:25px;
 margin-top:40px;
 }
 </style>
+
 </head>
 
 <body>
 
 <header>
+
 <h1>Nizar HP Tuners Libya</h1>
+
 <p>Professional ECU & TCM Tuning</p>
+
 </header>
 
+<nav>
+
+<a href="#">الرئيسية</a>
+
+<a href="#">الخدمات</a>
+
+<a href="#">السيارات</a>
+
+<a href="#">اتصل بنا</a>
+
+</nav>
+
 <section class="hero">
+
 <h2>برمجة احترافية للسيارات الأمريكية</h2>
+
 <p>Dodge • RAM • GMC • Chevrolet • Ford • Cadillac</p>
 
-<a class="btn" href="https://wa.me/218919876596">📱 تواصل عبر واتساب</a>
+<a class="button" href="https://wa.me/218919876596">تواصل عبر واتساب</a>
+
 </section>
 
 <section class="section">
@@ -98,18 +119,18 @@ margin-top:40px;
 <div class="cards">
 
 <div class="card">
+<h3>HP Tuners</h3>
+<p>برمجة احترافية باستخدام HP Tuners.</p>
+</div>
+
+<div class="card">
 <h3>ECU Programming</h3>
-<p>برمجة كمبيوتر المحرك.</p>
+<p>قراءة وكتابة ملفات المحرك.</p>
 </div>
 
 <div class="card">
 <h3>TCM Programming</h3>
 <p>برمجة ناقل الحركة.</p>
-</div>
-
-<div class="card">
-<h3>Performance Tuning</h3>
-<p>تحسين الأداء والعزم.</p>
 </div>
 
 <div class="card">
@@ -123,12 +144,14 @@ margin-top:40px;
 
 <section class="section">
 
-<h2>اتصل بنا</h2>
+<h2>تواصل معنا</h2>
 
 <p>📍 السواني - طرابلس</p>
+
 <p>📍 الزاوية</p>
 
 <p>📞 0921530946</p>
+
 <p>📞 0919876596</p>
 
 </section>
@@ -140,4 +163,5 @@ margin-top:40px;
 </footer>
 
 </body>
+
 </html>
