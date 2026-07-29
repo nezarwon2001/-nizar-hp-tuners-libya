@@ -105,3 +105,18 @@ text-decoration:none;
 box-shadow:0 0 15px #000;
 z-index:1000;
 }
+.logo h1{
+font-size:40px;
+color:#ff0000;
+text-shadow:0 0 10px #900;
+}
+
+.logo p{
+font-size:18px;
+color:#fff;
+}
+
+.logo span{
+color:#ccc;
+font-weight:bold;
+}
