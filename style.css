@@ -209,3 +209,10 @@ transition:.3s;
 background:#fff;
 color:#000;
 }
+.logo-img{
+    width:180px;
+    display:block;
+    margin:20px auto;
+    border-radius:50%;
+    box-shadow:0 0 20px red;
+}
